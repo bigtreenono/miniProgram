@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/search/index",
+    "pages/tools/index",
+    "pages/collect/index",
+    "pages/detail/index",
+    "pages/comment/index",
+    "pages/userCenter/index",
+    "pages/list/index",
+    "pages/feedback/index",
+    "pages/about/index",
+    "pages/sponsor/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#5F98FD",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "口袋吉他"
+  }
+}

@@ -1,0 +1,47 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  line-height: 1.2;
+  overflow-x: hidden;
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  padding: 16rpx;
+  /* box-sizing: border-box; */
+} 
+
+.item-pic {
+  border-radius: 6rpx;
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.title {
+  font-size: 28rpx;
+}
+
+.username {
+  font-weight: 700;
+  font-size: 22rpx;
+  color: #000;
+}
+
+.item {
+  padding-bottom: 16rpx;
+  padding-top: 16rpx;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

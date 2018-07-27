@@ -1,0 +1,99 @@
+page {
+    background-color: #fff;
+}
+
+.tab-wrap {
+    position: fixed;
+    z-index: 99999999999999;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 88rpx;
+    line-height: 88rpx;
+    background-color: #fff;
+}
+
+.m-tab {
+    display: flex;
+    height: 88rpx;
+    line-height: 88rpx;
+    background-color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.m-tab .itm {
+    position: relative;
+    flex: 1;
+    border-bottom:1px solid #eee;
+}
+
+.m-tab .slider {
+    position: absolute;
+    height: 6rpx;
+    left: 0;
+    width: 50%;
+    bottom: 0;
+    background-color: #5F98FD;
+    transform: translateX(0)
+}
+
+/*  list  */
+.flex-bx {
+    display: flex;
+    align-items: center;
+}
+
+.flex-bx .hd {
+    flex: 1
+}
+
+.flex-bx hd1 {
+    flex-basis: 40px;
+}
+
+.m-list {
+    padding: 20rpx;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.m-list::after {
+    content: "";
+    display: block;
+    visibility: hidden;
+    height: 0px;
+    width: 100%;
+    clear: both;
+
+}
+
+.m-list .item {
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 1px solid #f3f3f3;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.m-list .item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.m-list .item:first-child {
+    margin-top: 0;
+}
+
+.m-list .item .content {
+    padding: 24rpx;
+}
+
+.sub {
+    color: #888;
+}
+
+.m-list .item image {
+    width: 120rpx;
+    height: 120rpx;
+}
