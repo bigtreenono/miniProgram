@@ -1,6 +1,6 @@
 <view class="container">
   <block wx:for="{{latest}}" wx:key="{{index}}">
-    <view class="item" id="{{item.id}}" bindtap='goToDetail'>
+    <view class="item" bindtap='goToDetail'>
       <image class='item-pic' src="{{item.member.avatar_normal}}"></image>
       <view class='content'>
         <text class='title'>{{item.title}} </text>

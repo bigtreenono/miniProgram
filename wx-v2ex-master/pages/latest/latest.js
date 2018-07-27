@@ -1,4 +1,4 @@
-import { getLatestTopics } from '../../utils/api.js';
+import { getLatestTopics } from '../../utils/api';
 
 Page({
   data: {
