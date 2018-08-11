@@ -19,13 +19,15 @@ Page({
     wx.request({
       url: getLatestTopics({page: 1}),
       success(res) {
-        console.log(res);
+        console.log('response ', res);
 
         that.setData({
           latest: res.data
         })
         setTimeout(() => {
-          that.setData({hidden: true});
+          that.setData({
+            hidden: true
+          });
           callback();
         }, 300)
       }

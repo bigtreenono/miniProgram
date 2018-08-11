@@ -1,13 +1,22 @@
 /**app.wxss**/
 .container {
-  /* height: 100%; */
+  height: 100%;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
   line-height: 1.2;
   overflow-x: hidden;
   padding: 16rpx;
-} 
+}
+
+.item {
+  padding-bottom: 16rpx;
+  padding-top: 16rpx;
+}
+
+.item:first-child {
+  border-top: 0;
+}
 
 .item-pic {
   border-radius: 6rpx;
@@ -23,15 +32,6 @@
   font-weight: 700;
   font-size: 22rpx;
   color: #000;
-}
-
-.item {
-  padding-bottom: 16rpx;
-  padding-top: 16rpx;
-}
-
-.item:first-child {
-  border-top: 0;
 }
 
 .item .replies-num {
